@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - main block
+ * Description:get a random number and print the number
+ * if it is postitive, negative or zero
+ */
 int main(void)
 {
 	int n;
@@ -12,13 +14,13 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if(n>0){
-	printf("is positive\n");
+	printf("%i is positive\n",n);
 	}
 	if(n==0){
-	printf("is zero\n");
+	printf("%i is zero\n",n);
 	}
 	if(n<0){
-	printf("is negative\n");
+	printf("%i is negative\n",n);
 	}
 	return (0);
 }
