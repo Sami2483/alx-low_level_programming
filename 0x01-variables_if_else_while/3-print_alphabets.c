@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int x,y;
+int x, y;
 x = 'a';
 y = 'A';
 while (x <= 'z')
