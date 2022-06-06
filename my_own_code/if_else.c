@@ -8,7 +8,7 @@ printf("a is less than 20 \n");
 else{
 printf("a is not less than 20\n");
 }
-printf("value of a is :%d\n",a);
+printf("value of a is :%d\n;
 
 
 }
